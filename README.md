@@ -1,5 +1,5 @@
 # useful_material
-Here is some material I like to use, including my onwn and other persons templates and explanations.
+Here is some material I like to use, including my onwn and other persons templates and explanations, recommendations etc. Shortly: inspiring things.
 
 ## git
 Very nice link for a git tutorial/ book. If you want to learn git, try this.
