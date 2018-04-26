@@ -21,4 +21,26 @@ If I have large tables with long entries, I find it quite useful to first create
 ´´´
 =CONCATENATE(B4, " & ")
 ´´´
+I also found this link https://www.tablesgenerator.com/markdown_tables where you can generate a markdown table. What I try to encourage you here is to program something alike yourself in excel.
 The result looks like this: 
+
+```
+bla	bla	bla
+bla	bla	bla
+bla	bla	bla
+bla	bla	bla
+bla	bla	bla
+bla	bla	bla
+bla	bla	bla
+```
+after : 
+```
+bla & 	bla & 	bla \\ 
+bla & 	bla & 	bla \\ 
+bla & 	bla & 	bla \\ 
+bla & 	bla & 	bla \\ 
+bla & 	bla & 	bla \\ 
+bla & 	bla & 	bla \\ 
+bla & 	bla & 	bla \\ 
+
+```
