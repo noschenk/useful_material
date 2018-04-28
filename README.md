@@ -11,4 +11,5 @@ Edward R. Tufte wrote a really nice book which was strongly recommended to me : 
 We found that book on http://visualizationuniverse.com/ which seems to definitely be worth checking out!
 
 ## github blog
-https://janhove.github.io/about.html : apparently you can have a github-blog!
+apparently you can have a github-blog, it's name is *github pages* and here is a very very nice explanation to set it up!
+http://jmcglone.com/guides/github-pages/
