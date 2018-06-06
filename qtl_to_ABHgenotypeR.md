@@ -1,5 +1,5 @@
-## Import maps from `qtl` package
-To import a map created with the `qtl` or `ASMap` package, export it as a "csvs" and import it with `ABHgenotypeR` again.
+## Import maps from `qtl` package into `ABHgenotypeR`
+To import a map created with the `qtl` or `ASMap` package (e.g. for error correction), export it as a "csvs" and import it with `ABHgenotypeR` again.
 ```
 write.cross(your_map, format="csvs", filestem = "name_of_your_map")
 ```
