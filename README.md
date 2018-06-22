@@ -9,3 +9,7 @@ https://git-scm.com/book/en/v2/Git-Basics-Recording-Changes-to-the-Repository#Ig
 Edward R. Tufte wrote a really nice book which was strongly recommended to me : "The Visual Display of Quantitative Information"
 
 We found that book on http://visualizationuniverse.com/ which seems to definitely be worth checking out!
+
+## github blog
+apparently you can have a github-blog, it's name is *github pages* and here is a very very nice explanation to set it up!
+http://jmcglone.com/guides/github-pages/
