@@ -52,9 +52,9 @@ with(.hist, lines(mids, counts, col="goldenrod2", lwd=2))
 axis(2)
 axis(1)
 gff2 <- recordPlot()
-# png("samplefigs/gff2_sample.png")
-# gff2
-# dev.off()
+png("samplefigs/gff2_sample.png")
+gff2
+dev.off()
 ```
 
 ![plot of gff2](./samplefigs/gff2_sample.png)
