@@ -22,6 +22,8 @@ gff <- read.table("arabidopsis.sample.gff")
 # mrna <- gff[which(gff$V3 == "mRNA"),]
 gene <- gff[which(gff$V3 == "gene"),]
 ```
+
+
 The start position of the gene is plotted, to show gene density independent of gene length. Gene density per 2 kb is plotted.
 ```{r}
 # first plot
@@ -31,7 +33,13 @@ with(.hist, plot(mids, counts, pch=".", col="darkolivegreen", axes=F, main="Arab
 with(.hist, lines(mids, counts, col="darkolivegreen", lwd=2))
 axis(2)
 axis(1)
+gff1 <- recordPlot()
+# png("samplefigs/gff1_sample.png")
+# gff1
+# dev.off()
 ```
+
+![plot of gff1](./samplefigs/gff1_sample.png)
 
 The .gff dataset is very small, therefore there are maximum 3 entries per bin. To illustrate how the plot looks with more data, the whole sample dataset is used. Per gene, there are entries for CDS, exon, ... so the plot biologically does not make sense, but prevents me from uploading a larger dataset.
 
@@ -43,5 +51,12 @@ with(.hist, plot(mids, counts, pch=".", col="goldenrod2", axes=F, main="Arabidop
 with(.hist, lines(mids, counts, col="goldenrod2", lwd=2))
 axis(2)
 axis(1)
+gff2 <- recordPlot()
+# png("samplefigs/gff2_sample.png")
+# gff2
+# dev.off()
 ```
+
+![plot of gff2](./samplefigs/gff2_sample.png)
+
 I found the colors [here](http://www.stat.columbia.edu/~tzheng/files/Rcolor.pdf). A useful color R package with palletes of colors that can be distinguished by colorblind persons is [RColorBrewer](https://www.rdocumentation.org/packages/RColorBrewer/versions/1.1-2)
