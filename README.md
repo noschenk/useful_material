@@ -13,3 +13,7 @@ We found that book on http://visualizationuniverse.com/ which seems to definitel
 ## github blog
 apparently you can have a github-blog, it's name is *github pages* and here is a very very nice explanation to set it up!
 http://jmcglone.com/guides/github-pages/
+
+
+## How to write and publish a scientific paper - Barbara Gastel and Robert A. Day
+Very nice book, find a summary at https://noschenk.github.io/blog/2018/07/12/how-to-write-and-publish-a-scientific-paper
