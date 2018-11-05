@@ -18,4 +18,3 @@ http://jmcglone.com/guides/github-pages/
 ## How to write and publish a scientific paper - Barbara Gastel and Robert A. Day
 Very nice book, find a summary at https://noschenk.github.io/blog/2018/07/12/how-to-write-and-publish-a-scientific-paper
 
-test
