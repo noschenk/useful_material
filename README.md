@@ -18,3 +18,9 @@ http://jmcglone.com/guides/github-pages/
 ## How to write and publish a scientific paper - Barbara Gastel and Robert A. Day
 Very nice book, find a summary at https://noschenk.github.io/blog/2018/07/12/how-to-write-and-publish-a-scientific-paper
 
+
+# upload a script while hiding paths `nonpublic`
+Sometimes, you would like to share a script, but within that script, you are using paths. You may like to keep those private, e.g. because it's servers addresses of you work or just because.
+In such situations, I usually create a script `nonpublic`, which contains all paths. Running it will save all necessary paths to variables.
+In the shared script, I then just use the variables and explain that those contain the paths to loaded files.
+The person using your script will then just need to fill in the variables accordingly and is able to use your script.
