@@ -1,0 +1,41 @@
+\documentclass[a4paper]{article}
+
+%% Language and font encodings
+\usepackage[english]{babel}
+\usepackage[utf8x]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{booktabs} % to make professional tables
+\usepackage{adjustbox} % adjust table sizes
+\usepackage{longtable} % tables longer than 1 page
+\usepackage{lscape}
+\usepackage{caption}
+\usepackage{lipsum}
+
+%% Sets page size and margins
+\usepackage[a4paper,top=3cm,bottom=2cm,left=3cm,right=3cm,marginparwidth=1.75cm]{geometry}
+
+%% Useful packages
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage[colorinlistoftodos]{todonotes}
+\usepackage[colorlinks=true, allcolors=blue]{hyperref}
+
+\title{Your Paper}
+\author{You}
+
+\begin{document}
+\lipsum[1]
+
+
+To reference this table within the text: \ref{table:assemblystats}
+
+
+\lipsum[2]
+
+
+To reference this table : \ref{table:capsmarkers}	
+\input{caps_markers_table.tex}
+
+\input{assembly_stats.tex}
+
+\end{document}
