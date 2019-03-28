@@ -24,3 +24,7 @@ Sometimes, you would like to share a script, but within that script, you are usi
 In such situations, I usually create a script `nonpublic`, which contains all paths. Running it will save all necessary paths to variables.
 In the shared script, I then just use the variables and explain that those contain the paths to loaded files.
 The person using your script will then just need to fill in the variables accordingly and is able to use your script.
+
+# deepl translator
+My favourite real-time translator, it works amazingly well even for whole texts. 
+https://www.deepl.com/translator
