@@ -1,0 +1,26 @@
+---
+title: "useful at startup"
+author: "noelle schenk"
+date: "10 April 2019"
+output: html_document
+---
+
+# Useful at startup
+This document should give some useful ideas what to do at startup. Every time I switch to a new computer or my current computer has a problem which requires new setup, I have the same problem: I need to download all needed programs, need to install git, clone my projects, etc. 
+
+Therefore I thought to write this document. And as usual, there is a chance that it helps someone out there with the similar problem, so I share it.
+
+## RStudio
+RStudio is my main working environment, and there are a couple of things I always like to have.
+
+- **git** : download git
+- enable git for RStudio : Tools > Global Options > Git/SVN  and insert the path to git.exe there. In windows, the executable is in AppData Local Programs Git cmd and there, it's git.exe . Note that AppData is normally hidden.
+- restart RStudio
+- create new project and clone from existing git repository
+
+Packages I always like to install.
+
+```{r}
+install.packages(c("devtools", "knitr", "ggplot2", "data.table"))
+```
+
