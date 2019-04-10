@@ -21,6 +21,8 @@ RStudio is my main working environment, and there are a couple of things I alway
 Packages I always like to install.
 
 ```{r}
-install.packages(c("devtools", "knitr", "ggplot2", "data.table"))
+install.packages(c("devtools", "knitr", "ggplot2", "data.table", "RColorBrewer", "cowplot", "betapart"))
+install.packages("betapart")
+devtools::install_github("klutometis/roxygen")
 ```
 
