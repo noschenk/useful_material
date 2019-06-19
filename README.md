@@ -10,6 +10,12 @@ Edward R. Tufte wrote a really nice book which was strongly recommended to me : 
 
 We found that book on http://visualizationuniverse.com/ which seems to definitely be worth checking out!
 
+### R graph gallery
+https://www.r-graph-gallery.com/
+
+### cowplot!!
+Definitely a very nice package, use cowplot with ggplot2!
+
 ## github blog
 apparently you can have a github-blog, it's name is *github pages* and here is a very very nice explanation to set it up!
 http://jmcglone.com/guides/github-pages/
