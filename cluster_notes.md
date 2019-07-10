@@ -23,6 +23,10 @@ R CMD BATCH --no-save -no-restore foo.R
 ```
 where `foo.R` is the R file to run.
 
-Often used cluster code : 
-- `squeue --user=<your username>`    : to monitor your job
-- `sbatch script.sh`                 : to submit a script
+
+| code                                                   |      explanation                |
+|--------------------------------------------------------|:-------------------------------:|
+| `squeue --user=<your username>`                        |  monitor your job               |
+| `sbatch script.sh`                                     |  submit a script                |
+| `scp ~/dir/file01 <username>@submit.unibe.ch:<folder>` | upload file to cluster. Run from local.       |
+| `local$ scp <username>@submit.unibe.ch:bar/file01 .`   | download files from cluster. Run from local.  |
