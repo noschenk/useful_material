@@ -25,8 +25,8 @@ where `foo.R` is the R file to run.
 
 
 | code                                                   |      explanation                |
-|--------------------------------------------------------|:-------------------------------:|
+|--------------------------------------------------------|---------------------------------|
 | `squeue --user=<your username>`                        |  monitor your job               |
 | `sbatch script.sh`                                     |  submit a script                |
 | `scp ~/dir/file01 <username>@submit.unibe.ch:<folder>` | upload file to cluster. Run from local.       |
-| `local$ scp <username>@submit.unibe.ch:bar/file01 .`   | download files from cluster. Run from local.  |
+| `scp <username>@submit.unibe.ch:bar/file01 .`          | download files from cluster. Run from local.  |
