@@ -9,12 +9,16 @@
 
 return_max_values <- function(values_vector, noresult = 0){
   collapsed_vec <- rle(values_vector)$values
-  locations_vec <- which(diff(sign(diff(collapsed_vec))) == -2) + 1
+  locations_vec <- which(diff(c(sign(diff(collapsed_vec)), -1)) == -2) + 1
+  # check which is -2 because this means a change from going up to going down --> c(1, -1) has diff = -2
+  #    note : If i would like to get maxima, I would search where diff is 2, because diff(c(-1, 1)) is 2
+  # take -1 because only diff of c(sign(diff(...)), -1) returns -2 for situations in which the function
+  #   does not go down any more. (monotonical increase would not give a result)
   res <- collapsed_vec[locations_vec]
   if(length(res) == 0){
     return(0)
-    } else {
-   return(res) 
+  } else {
+    return(res) 
   }
 }
 
