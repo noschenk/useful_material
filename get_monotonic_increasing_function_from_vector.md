@@ -3,7 +3,7 @@ In case you have a vector of values which should be monotonically increasing, bu
 
 For an example, check the line for 0 rounds : This is the raw vector of values with a global minimum at 0 and a local minimum somwhere above, which needs to be removed.
 
-<img src="https://user-images.githubusercontent.com/32162523/65876954-d2044d00-e38a-11e9-8f94-282ce8dff288.png" width="500px">
+<img src="https://user-images.githubusercontent.com/32162523/65876954-d2044d00-e38a-11e9-8f94-282ce8dff288.png" width="700px">
 
 ```
 # Take out minima from a vector which are not zero. Those usually correspond to 
