@@ -11,4 +11,6 @@ The trick is to map your network drive to a computer drive, like "T:" or "L:".
 Once you did that, open RStudio > Tools > Global Options and change the path to "R version:" to the new letter, e.g. T:Documents\.
 (Instead of the crazy "\\\drive\blabla\Documents" thing which is written there.)
 
+Then also change the Default working directory (when not in a project) to the chosen letter (e.g. T:/Documents)
+
 You will need to restart R in case it's not yet working. I also had to close and re-open my project, but it's working now!!
