@@ -34,3 +34,8 @@ The person using your script will then just need to fill in the variables accord
 # deepl translator
 My favourite real-time translator, it works amazingly well even for whole texts. 
 https://www.deepl.com/translator
+
+
+# R packages
+I think it is very useful to store often used code in a specific R package. This allows me to just load the package and use some shortcuts without coding them again and again. Such often used code could contain saving graphs in high quality, the default settings of the write.table function (e.g. quote = F and row.names = F), getting my favourite colors in a vector (e.g. from RColorBreweR) etc.
+I try to avoid having project specific code in this general collection - the package should stay small and only/ mostly contain function I really often use - if a specific function is not used any more, it should be deleted. (and saved in another place, e.g. in an inspirational collection of old code)
